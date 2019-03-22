@@ -1,0 +1,11 @@
+---
+layout: default
+img: muc.png
+category: Features
+title: Clean and powerful chats and group chats
+description: |
+---
+  Thanks to clean UI you can easily join or manage group chats.
+
+  In Beagle IM markdown formatting is a first class citizen.
+  You can use it in every message making you messages more expressive than just with plain text.

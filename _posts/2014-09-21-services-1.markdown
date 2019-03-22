@@ -1,0 +1,10 @@
+---
+layout: default
+img: darkOrLight.png
+category: Features
+title: Dark or Light?
+description: |
+---
+  Beagle IM supports dark mode introduced in macOS Mojave.
+  It can adapt to the system theme of you can use which one you want.
+  It is up to you!

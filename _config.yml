@@ -1,0 +1,38 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://beagle.im
+title: Beagle IM by Tigase, Inc.
+email: support@tigase.net
+author: Tigase, Inc.
+description: > # "Write an awesome description for your new site here.
+  You can edit this line in _config.yml. It will appear in your document
+  head meta (for Google search results) and in your feed.xml site
+  description.
+copyright: 'Copyright &copy; 2018 Tigase, Inc. All Rights Reserved.'
+credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    superclass: b
+    class: twitter
+    url: https://twitter.com/tigase
+  - title: appstore
+    class: download
+    url: https://itunes.apple.com/us/app/beagleim-by-tigase-inc/id1445349494?l=pl&ls=1&mt=12
+  - title: sourcecode
+    class: code
+    url: https://tigase.tech/projects/beagle-im

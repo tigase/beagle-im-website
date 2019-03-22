@@ -1,0 +1,9 @@
+---
+layout: default
+img: chat.png
+category: Features
+title: Focus on conversation
+description: |
+---
+  Convesation is displayed in the linear form with all messages aligned to the left.
+  This way you can read it quicker than jumping from buble on the left to buble on the right!

@@ -1,0 +1,8 @@
+---
+layout: default
+img: videocall1.png
+category: Features
+title: Make a call
+description: |
+---
+  If you are tired of typing but you still want to chat, then just make a call. With Beagle IM you may call your contact and better express yourself!
