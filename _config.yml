@@ -30,9 +30,16 @@ social:
     superclass: b
     class: twitter
     url: https://twitter.com/tigase
+  - title: facebook
+    superclass: b
+    class: facebook
+    url: https://www.facebook.com/tigase/
   - title: appstore
     class: download
     url: https://itunes.apple.com/us/app/beagleim-by-tigase-inc/id1445349494?l=pl&ls=1&mt=12
   - title: sourcecode
     class: code
     url: https://github.com/tigaseinc/beagle-im
+  - title: community
+    class: code
+    url: https://help.tigase.net
