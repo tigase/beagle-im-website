@@ -7,7 +7,13 @@
     <div class="row no-gutters">
 
       <div class="col-lg-6 order-lg-2 text-white">
+        {% if post.img_link %}
+        <a href="{{ post.img_link }}" title="{{ post.img_title }}">
+        {% endif %}
         <img class="img-responsive right" src="img/services/{{ post.img }}" alt="">
+        {% if post.img_link %}
+        </a>
+        {% endif %}
       </div>
       <!-- <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/services/{{ post.img }}');"></div> -->
       <div class="col-lg-6 order-lg-1 my-auto showcase-text">
@@ -19,7 +25,13 @@
     {% else %}
     <div class="row no-gutters">
       <div class="col-lg-6 text-white"">
+        {% if post.img_link %}
+        <a href="{{ post.img_link }}" title="{{ post.img_title }}">
+        {% endif %}
         <img class="img-responsive left" src="img/services/{{ post.img }}" alt="">
+        {% if post.img_link %}
+        </a>
+        {% endif %}
       </div>
       <div class="col-lg-6 my-auto showcase-text">
         <h2>{{ post.title }}</h2>

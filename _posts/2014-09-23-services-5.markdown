@@ -1,0 +1,10 @@
+---
+layout: default
+img: omemo_logo.png
+img_link: https://github.com/siacs/Conversations/blob/master/art/omemo_logo.svg
+img_title: "Image licensed on CC BY-SA 4.0"
+category: Features
+title: Privacy
+description: |
+---
+  Do you want to keep your conversions private? You can do so by enabling [OMEMO](https://conversations.im/omemo/) end-to-end encryption!
