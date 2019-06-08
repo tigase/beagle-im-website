@@ -214,7 +214,7 @@ margin-right: auto;
 }
 
 ul.list-inline > li {
-  display: inline;
+  display: inline-flex;
 }
 
 .banner-social-buttons {
