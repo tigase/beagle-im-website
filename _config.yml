@@ -34,6 +34,10 @@ social:
     superclass: b
     class: facebook
     url: https://www.facebook.com/tigase/
+  - title: mastodon
+    superclass: b
+    class: mastodon
+    url: https://mastodon.technology/@tigase
   - title: appstore
     class: download
     url: https://itunes.apple.com/us/app/beagleim-by-tigase-inc/id1445349494?l=pl&ls=1&mt=12
