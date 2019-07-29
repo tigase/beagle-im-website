@@ -38,8 +38,12 @@ social:
     class: download
     url: https://itunes.apple.com/us/app/beagleim-by-tigase-inc/id1445349494?l=pl&ls=1&mt=12
   - title: sourcecode
-    class: code
+    superclass: b
+    class: github
     url: https://github.com/tigaseinc/beagle-im
   - title: community
-    class: code
+    class: comments
     url: https://help.tigase.net
+  - title: tasks
+    class: tasks
+    url: https://projects.tigase.net
