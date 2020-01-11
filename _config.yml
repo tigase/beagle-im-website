@@ -41,7 +41,7 @@ social:
   - title: sourcecode
     superclass: b
     class: github
-    url: https://github.com/tigaseinc/beagle-im
+    url: https://github.com/tigase/beagle-im
   - title: community
     class: comments
     url: https://help.tigase.net
