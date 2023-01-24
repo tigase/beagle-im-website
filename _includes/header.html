@@ -1,7 +1,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-light bg-light static-top navbar-expand-lg fixed-top">
   <div class="container">
-    <a class="navbar-brand navbar-custom" href="#home">{{ site.title }}</a>
+    <a class="navbar-brand navbar-custom" href="#home"><img src="{{ site.logo }}" height="40" style="margin-right: 0.5rem;"/>{{ site.title }}</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -9,6 +9,7 @@
         <a class="nav-item nav-link" href="#about">About</a>
         <a class="nav-item nav-link" href="#features">Features</a>
         <a class="nav-item nav-link" href="#contact">Contact</a>
+        <a class="nav-item nav-link" href="https://tigase.org">About Us</a>
     </div>
   </div>
 </nav>
@@ -17,13 +18,20 @@
 <header class="masthead text-white text-center" id="home">
   <div class="container">
     <div class="row intro-message">
-      <div class="col-xl-9 mx-auto">
-        <h1 class="mb-3">Beagle IM</h1>
+      <div class="col-md-3" style="display: flex; justify-content: center; align-items: center;">
+        <img class="w-100" src="{{ site.logo }}"/>
       </div>
-      <div class="col-md-10 mx-auto">
-        <h3 class="mb-3">Lightweight & powerful XMPP client for macOS</h3>
+      <div class="col-md-9">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h1 class="mb-3">Beagle IM</h1>
+          </div>
+          <div class="col-md-10 mx-auto">
+            <h3 class="mb-3">Lightweight & powerful XMPP client for macOS</h3>
+          </div>
+          <hr class="intro-divider">
+        </div>
       </div>
-      <hr class="intro-divider">
     </div>
   </div>
 </header>
